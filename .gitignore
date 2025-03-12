@@ -1,0 +1,11 @@
+#ignore terrafrom tfstate files and conguration and credential files
+.terraform.*
+terraform.lock.hcl
+#tfstate
+*.tfstate
+terraform.tfstate.backup
+#credentials
+*.env
+terraform.tfvars
+backend.tf
+.terraform
