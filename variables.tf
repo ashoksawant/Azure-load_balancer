@@ -1,5 +1,5 @@
 variable "resource_group_name" {
-  default = "1-4fc45b3a-playground-sandbox"
+  default = "1-724c9af0-playground-sandbox"
   type    = string
 }
 

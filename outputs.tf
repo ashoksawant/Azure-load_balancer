@@ -5,7 +5,7 @@ output "public_ip_address" {
 
 output "load_balancer_name" {
   description = "The name of the load balancer"
-  value       = azurerm_lb.lb1.name
+  value       = azurerm_lb.web_lb.name
 }
 
 output "vmss_name" {
